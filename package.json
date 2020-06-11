@@ -40,6 +40,7 @@
     "@txo/babel-preset": "^1.0.0",
     "@txo/glow": "^1.2.3",
     "@txo/log-console": "^2.0.0",
+    "@txo/redux": "^3.0.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
@@ -60,9 +61,11 @@
     "flow-copy-source": "^2.0.8",
     "flow-typed": "^3.1.0",
     "husky": "^4.2.5",
+    "immutability-helper": "^3.1.1",
     "jest": "^26.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "redux-saga": "^1.1.3",
     "rimraf": "^3.0.2"
   },
   "jest": {
