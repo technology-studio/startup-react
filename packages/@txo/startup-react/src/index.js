@@ -6,6 +6,7 @@
 **/
 
 import { redux } from './Redux'
+import type { RootStateFragment } from './Redux'
 import * as StartupRedux from './Redux/Model/StartupRedux'
 import {
   selectStartupComplete,
@@ -21,4 +22,8 @@ export {
   selectStartupComplete,
   StartupRedux,
   waitForStartupComplete,
+}
+
+export type {
+  RootStateFragment,
 }
