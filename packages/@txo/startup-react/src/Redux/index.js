@@ -22,7 +22,7 @@ export type RootStateFragment = {
   startup: State,
 }
 
-export const redux: NodeRedux<State> = combineRedux({
+export const nodeRedux: NodeRedux<State> = combineRedux({
   model: ModelRedux.redux,
   // services: ServicesRedux.redux,
 })

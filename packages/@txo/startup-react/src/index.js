@@ -5,9 +5,9 @@
  * @flow
 **/
 
-import { redux } from './Redux'
+import { nodeRedux } from './Redux'
 import type { RootStateFragment } from './Redux'
-import * as StartupRedux from './Redux/Model/StartupRedux'
+import { redux as startupRedux } from './Redux/Model/StartupRedux'
 import {
   selectStartupComplete,
   selectIsRehydrated,
@@ -16,11 +16,11 @@ import { rootSaga } from './Sagas'
 import { waitForStartupComplete } from './Sagas/StartupSagas'
 
 export {
-  redux,
+  nodeRedux,
   rootSaga,
   selectIsRehydrated,
   selectStartupComplete,
-  StartupRedux,
+  startupRedux,
   waitForStartupComplete,
 }
 
