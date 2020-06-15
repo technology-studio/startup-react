@@ -23,10 +23,6 @@ import { selectStartupComplete } from '../Redux/Model/StartupSelectors'
 // process STARTUP actions
 export function * startupActionSaga (action: Object): Saga<void> {
   // TODO: if any insertion is need we will provide saga from config manager
-  /* if (Platform.OS === 'android') {
-    // FIXME: removed due issee, some components are dissappering
-    // UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)
-  } */
 
   yield putResolve(startupRedux.creators.startupComplete())
 }
