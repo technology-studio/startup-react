@@ -22,7 +22,9 @@
     "flow-typed:install": "scripts/flow-typed-install.sh",
     "flow-typed:create-stub": "yarn flow-typed create-stub",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
-    "sanity": "yarn lint && yarn flow check && yarn test && yarn outdated && echo 'success'"
+    "sanity": "yarn lint && yarn flow check && yarn test && yarn outdated && echo 'success'",
+    "wd": "yarn workspace @txo/startup-react",
+    "wpd": "yarn workspace @txo-peer-dep/startup-react"
   },
   "workspaces": [
     "packages/@txo/*",
