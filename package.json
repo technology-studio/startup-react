@@ -14,15 +14,12 @@
   "scripts": {
     "test": "jest",
     "test:watch": "concurrently \"yarn workspaces run build:watch\" \"jest --watch\"",
-    "pretest": "yarn workspaces run build",
     "coverage": "jest --coverage && open coverage/lcov-report/index.html || xdg-open coverage/lcov-report/index.html",
-    "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
-    "fixcode": "eslint --format=node_modules/eslint-formatter-pretty . --fix",
-    "git-hook": "yarn -s lint && yarn flow check",
-    "flow-typed:install": "scripts/flow-typed-install.sh",
-    "flow-typed:create-stub": "yarn flow-typed create-stub",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx .",
+    "fixcode": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx . --fix",
+    "git-hook": "yarn -s lint",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
-    "sanity": "yarn lint && yarn flow check && yarn test && yarn outdated && echo 'success'",
+    "sanity": "yarn lint && yarn tsc && yarn test && yarn outdated && echo 'success'",
     "wd": "yarn workspace @txo/startup-react",
     "wpd": "yarn workspace @txo-peer-dep/startup-react"
   },
@@ -38,43 +35,43 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.12.13",
-    "@babel/core": "^7.12.13",
-    "@babel/node": "^7.12.13",
     "@txo-peer-dep/log": "^3.0.0",
-    "@txo/babel-preset": "^1.0.0",
-    "@txo/glow": "^1.2.3",
     "@txo/log-console": "^2.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.1.0",
-    "babel-jest": "^26.6.3",
-    "concurrently": "^5.3.0",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "eslint": "^7.19.0",
-    "eslint-config-txo-react": "^4.0.0",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.0",
+    "@types/react-redux": "^7.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "concurrently": "^5.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "eslint": "^7.18.0",
+    "eslint-config-txo-typescript": "^2.2.0",
     "eslint-formatter-pretty": "^4.0.0",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.1.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-standard": "^5.0.0",
-    "flow-bin": "^0.128.0",
-    "flow-copy-source": "^2.0.8",
-    "flow-typed": "^3.2.1",
     "husky": "^4.3.8",
+    "immutability-helper": "^3.1.1",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "redux-saga": "^1.1.3",
-    "rimraf": "^3.0.2"
+    "redux": "^4.0.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
   },
   "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
     "testMatch": [
-      "<rootDir>/__tests__/**/*.js",
-      "**/?(*.)(spec|test).js?(x)"
+      "<rootDir>/__tests__/**/*.ts",
+      "**/?(*.)(spec|test).ts?(x)"
     ],
     "transformIgnorePatterns": [
       "/node_modules/(?!@txo).+\\.js$"
@@ -82,11 +79,11 @@
     "testPathIgnorePatterns": [
       "/node_modules/",
       "<rootDir>/__tests__/Config/",
-      "<rootDir>/__tests__/Setup.js",
+      "<rootDir>/__tests__/Setup.ts",
       "<rootDir>/__tests__/Utils/"
     ],
     "setupFiles": [
-      "<rootDir>/__tests__/Setup"
+      "<rootDir>/__tests__/Setup.ts"
     ]
   }
 }

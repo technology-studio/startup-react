@@ -1,29 +1,31 @@
 /**
- * @Author: Rostislav Simonik <rostislav.simonik>
+ * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
  * @Date:   2017-04-14T11:03:56+02:00
- * @Email:  rostislav.simonik@technologystudio.sk
  * @Copyright: Technology Studio
- * @flow
- */
+**/
 
 import {
   createRedux,
-  type Action,
-  type Redux,
+  ActionCreator,
+  Redux,
+  ReduxHandler,
 } from '@txo/redux'
 import update from 'immutability-helper'
 
 export type State = {
-  rehydrated: ?boolean,
-  startupComplete: ?boolean,
+  rehydrated: boolean | null,
+  startupComplete: boolean | null,
 }
 
 export type Creators = {
-  startup: () => Action,
-  startupComplete: () => Action,
+  startup: ActionCreator,
+  startupComplete: ActionCreator,
 }
 
-export const redux: Redux<State, Creators> = createRedux({
+export const redux: Redux<State, Creators> = createRedux<State, {
+  startup: ReduxHandler<State>,
+  startupComplete: ReduxHandler<State>,
+}>({
   filter: {
     rehydrated: true,
     startupComplete: true,

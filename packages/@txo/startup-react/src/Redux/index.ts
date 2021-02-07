@@ -1,14 +1,12 @@
 /**
- * @Author: Rostislav Simonik <rostislav.simonik>
+ * @Author: Rostislav Simonik <rostislav.simonik@technologystudio.sk>
  * @Date:   2017-04-25T22:13:00+02:00
- * @Email:  rostislav.simonik@technologystudio.sk
  * @Copyright: Technology Studio
- * @flow
 **/
 
 import {
   combineRedux,
-  type NodeRedux,
+  NodeRedux,
 } from '@txo/redux'
 import * as ModelRedux from './Model'
 // import * as ServicesRedux from './Services'
@@ -18,8 +16,10 @@ export type State = {
   // services: ServicesState.State,
 }
 
-export type RootStateFragment = {
-  startup: State,
+declare module 'react-redux' {
+  interface DefaultRootState {
+    startup: State,
+  }
 }
 
 export const nodeRedux: NodeRedux<State> = combineRedux({
