@@ -18,6 +18,7 @@
     "lint": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx .",
     "fixcode": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx . --fix",
     "git-hook": "yarn -s lint",
+    "postinstall": "husky install",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
     "sanity": "yarn lint && yarn tsc && yarn test && yarn outdated && echo 'success'",
     "wd": "yarn workspace @txo/startup-react",
@@ -27,12 +28,6 @@
     "packages/@txo/*",
     "packages/@txo-peer-dep/*"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run git-hook",
-      "pre-push": "yarn run git-hook"
-    }
-  },
   "dependencies": {},
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.0",
@@ -71,8 +66,7 @@
     "preset": "ts-jest",
     "testEnvironment": "node",
     "testMatch": [
-      "<rootDir>/__tests__/**/*.ts",
-      "**/?(*.)(spec|test).ts?(x)"
+      "<rootDir>/__tests__/**/?(*.)(spec|test).ts?(x)"
     ],
     "transformIgnorePatterns": [
       "/node_modules/(?!@txo).+\\.js$"
@@ -81,6 +75,7 @@
       "/node_modules/",
       "<rootDir>/__tests__/Config/",
       "<rootDir>/__tests__/Setup.ts",
+      "<rootDir>/__tests__/Data.ts",
       "<rootDir>/__tests__/Utils/"
     ],
     "setupFiles": [
