@@ -24,7 +24,7 @@
     "prepare": "yarn build"
   },
   "dependencies": {
+    "@txo/config-manager": "^3.0.1"
   },
-  "peerDependencies": {
-  }
+  "peerDependencies": {}
 }
