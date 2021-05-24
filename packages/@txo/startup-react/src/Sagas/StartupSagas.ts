@@ -7,11 +7,13 @@
 import type { Action } from 'redux'
 
 import {
+  call,
   Effect,
   putResolve,
   select,
   take,
 } from 'redux-saga/effects'
+import { configManager } from '@txo-peer-dep/startup-react'
 
 // import { Platform, UIManager } from 'react-native'
 
@@ -22,7 +24,10 @@ import { selectStartupComplete } from '../Redux/Model/StartupSelectors'
 
 // process STARTUP actions
 export function * startupActionSaga (_action: Action): SagaGenerator {
-  // TODO: if any insertion is need we will provide saga from config manager
+  const { startupSaga } = configManager.config
+  if (startupSaga) {
+    yield call(startupSaga)
+  }
 
   yield putResolve(startupRedux.creators.startupComplete())
 }
