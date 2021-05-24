@@ -7,7 +7,7 @@
 import { ConfigManager } from '@txo/config-manager'
 
 export type Config = {
-  startupSaga: () => Promise<void>,
+  startupSaga?: () => Promise<void>,
 }
 
 export const configManager: ConfigManager<Config> = new ConfigManager<Config>({
