@@ -4,10 +4,11 @@
  * @Copyright: Technology Studio
 **/
 
+import type { NodeRedux } from '@txo/redux'
 import {
   combineRedux,
-  NodeRedux,
 } from '@txo/redux'
+
 import * as ModelRedux from './Model'
 // import * as ServicesRedux from './Services'
 

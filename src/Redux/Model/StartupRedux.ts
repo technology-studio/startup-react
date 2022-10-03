@@ -4,11 +4,13 @@
  * @Copyright: Technology Studio
 **/
 
-import {
-  createRedux,
+import type {
   ActionCreator,
   Redux,
   ReduxHandler,
+} from '@txo/redux'
+import {
+  createRedux,
 } from '@txo/redux'
 import update from 'immutability-helper'
 

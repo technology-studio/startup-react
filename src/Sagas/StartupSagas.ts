@@ -5,10 +5,9 @@
 **/
 
 import type { Action } from 'redux'
-
+import type { Effect } from 'redux-saga/effects'
 import {
   call,
-  Effect,
   putResolve,
   select,
   take,
@@ -18,7 +17,6 @@ import { configManager } from '@txo-peer-dep/startup-react'
 // import { Platform, UIManager } from 'react-native'
 
 import type { SagaGenerator } from '../Model/Types'
-
 import { redux as startupRedux } from '../Redux/Model/StartupRedux'
 import { selectStartupComplete } from '../Redux/Model/StartupSelectors'
 
