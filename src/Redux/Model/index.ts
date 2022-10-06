@@ -7,6 +7,7 @@
  */
 
 import { combineRedux } from '@txo/redux'
+
 import * as StartupRedux from './StartupRedux'
 
 export type State = {
