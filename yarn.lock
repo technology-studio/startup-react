@@ -3201,7 +3201,18 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-expect@^29.0.0, expect@^29.2.0:
+expect@^29.0.0:
+  version "29.1.2"
+  resolved "https://registry.yarnpkg.com/expect/-/expect-29.1.2.tgz#82f8f28d7d408c7c68da3a386a490ee683e1eced"
+  integrity sha512-AuAGn1uxva5YBbBlXb+2JPxJRuemZsmlGcapPXWNSBNsQtAULfjioREGBWuI0EOvYUKjDnrCy8PW5Zlr1md5mw==
+  dependencies:
+    "@jest/expect-utils" "^29.1.2"
+    jest-get-type "^29.0.0"
+    jest-matcher-utils "^29.1.2"
+    jest-message-util "^29.1.2"
+    jest-util "^29.1.2"
+
+expect@^29.2.0:
   version "29.2.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-29.2.0.tgz#b90c6df52be7abfd9f206f273fbcf8b33d8f332d"
   integrity sha512-03ClF3GWwUqd9Grgkr9ZSdaCJGMRA69PQ8jT7o+Bx100VlGiAFf9/8oIm9Qve7ZVJhuJxFftqFhviZJRxxNfvg==
