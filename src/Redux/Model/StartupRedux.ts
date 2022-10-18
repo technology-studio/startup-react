@@ -5,7 +5,6 @@
 **/
 
 import type {
-  ActionCreator,
   Redux,
   ReduxHandler,
 } from '@txo/redux'
@@ -19,15 +18,12 @@ export type State = {
   startupComplete: boolean | null,
 }
 
-export type Creators = {
-  startup: ActionCreator,
-  startupComplete: ActionCreator,
+export type Handlers = {
+  startup: ReduxHandler<State, undefined>,
+  startupComplete: ReduxHandler<State, undefined>,
 }
 
-export const redux: Redux<State, Creators> = createRedux<State, {
-  startup: ReduxHandler<State>,
-  startupComplete: ReduxHandler<State>,
-}>({
+export const redux: Redux<State, State, keyof Handlers, Handlers> = createRedux<State, keyof Handlers, Handlers>({
   filter: {
     rehydrated: true,
     startupComplete: true,

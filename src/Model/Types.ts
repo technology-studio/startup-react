@@ -8,7 +8,6 @@ import type {
   SagaIterator,
 } from 'redux-saga'
 
-// eslint-disable-next-line @typescript-eslint/no-invalid-void-type
 export type SagaGenerator<RT = void> = SagaIterator<RT> & {
   [Symbol.iterator]: () => SagaGenerator<RT>,
 }
