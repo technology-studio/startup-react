@@ -17,7 +17,7 @@ export type State = {
   // services: ServicesState.State,
 }
 
-declare module 'react-redux' {
+declare module '@txo-peer-dep/redux/lib/Model/Types' {
   interface DefaultRootState {
     startup: State,
   }
