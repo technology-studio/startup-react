@@ -1317,10 +1317,10 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/redux@^4.0.7":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.7.tgz#072eddbc49b149dcb8befe26a1056aacebd917eb"
-  integrity sha512-WPhA3y1IL6mjNrso/o3iOZnsqEtbbaEJBwThL4pLURZMQg0FXy2kr2Gaj1DzONmFSOL2BBmzaO5fS23c304xtw==
+"@txo/redux@^4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.8.tgz#445023c09a561eecd1376d4950e7cdfdd8679f15"
+  integrity sha512-OXN75Ui1vuYZPrC+5fRo8LerfTAW4JuJKXZ453ls+c6OR3fCHPamXwc8AD5oWR/mWeYkKUsqIqlfgkairBBV4A==
   dependencies:
     constant-case "^3.0.4"
     redux "^4.2.0"
