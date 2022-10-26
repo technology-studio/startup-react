@@ -1,6 +1,6 @@
 {
   "name": "@txo/startup-react",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Technology Studio - Startup react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -34,7 +34,7 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo/redux": "^4.0.8",
+    "@txo/redux": "^4.0.9",
     "redux-saga": "^1.2.1"
   },
   "peerDependencies": {
