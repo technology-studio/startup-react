@@ -1307,14 +1307,14 @@
   resolved "https://registry.yarnpkg.com/@txo-peer-dep/redux/-/redux-1.0.0.tgz#0ef9aab2000d5982788dfc2efcd604cc509acd3e"
   integrity sha512-XXiuT+a7KFECl0MtXwPT9AiW38CgoIZIoeXfUIcv+r203tvWmcG0cTmcNbwrNB0R7GkiY9wAvFkrTIxi8Q+4QA==
 
-"@txo-peer-dep/startup-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/startup-react/-/startup-react-1.0.1.tgz#b262e3b0d086591402dae1315dd9ca43b9106c89"
-  integrity sha512-mVB/CaRP5HZ8mRXe+C0osJ+ucKZsxIk0J7pCGtR1+0R76fScMpbR1IsCFmdf+PlPGQ0wV0phgCRHhoCnPxh7Yg==
+"@txo-peer-dep/startup-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/startup-react/-/startup-react-1.0.2.tgz#e72e4ae5948388773c7cf2ee04b004ffeba1ab29"
+  integrity sha512-y81s8g0sC9Rlc6i0R04/+XZpkhDmjrzOJoq8jr/oNY4WFztBsQqZpGz/A6U5zv1q8ofi/5ijvndAmaCin6A15w==
   dependencies:
-    "@txo/config-manager" "^3.0.1"
+    "@txo/config-manager" "^3.1.0"
 
-"@txo/config-manager@^3.0.1":
+"@txo/config-manager@^3.0.1", "@txo/config-manager@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.1.0.tgz#9a38d0ba2b2355f973775bafe884cdbb7225dc0d"
   integrity sha512-rYSd5Mk4URK3hs7Y5nSXst4KOidmjJPeaNkh+D/L1ndVodvKwXO/rZV00VYXpW71/KSaG1Hj83At3r4WmboKvg==
