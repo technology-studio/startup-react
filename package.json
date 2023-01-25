@@ -51,7 +51,7 @@
     "@txo-peer-dep/redux": "^1.0.0",
     "@txo-peer-dep/startup-react": "^1.0.2",
     "@txo/log-console": "^3.0.0",
-    "@types/jest": "^29.2.6",
+    "@types/jest": "^29.4.0",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
