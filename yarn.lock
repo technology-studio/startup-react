@@ -1416,14 +1416,14 @@
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.1.tgz#fd96044751a9930cf5136a7248ad8989efce756c"
   integrity sha512-CC+ZkiTbytuNVqvusQFdp72i1G2MhA5ITohxEMEi0qGLGIzxtYT20vYkoFRC8XPbsZydbu9uVtpH5wA/X/g/eg==
 
-"@txo/redux@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.10.tgz#badaa842b7236165e3a7e83717a599472fef8af5"
-  integrity sha512-1Lk6yxUUkcGl194sOjYyjqP9U8q5B6ec+id3qDBExCyizB+Ztg16UM+aAHhmsG2jU0tBKTVSm7bTI7lBw7Uo2A==
+"@txo/redux@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.11.tgz#c6169cc12eeb8b20db80c73b883b141b7c45bf78"
+  integrity sha512-61xq66VW6EfEPVG+ySYi+2J2GiwbbICrrfc2uAJp0ZqqBcfsaS58B95iN/8TmzWjZBvUzijl6A2UO2CMm8nZpA==
   dependencies:
     "@txo/functional" "^4.5.2"
     constant-case "^3.0.4"
-    redux "^4.2.0"
+    redux "^4.2.1"
 
 "@types/babel__core@^7.1.14":
   version "7.1.19"
@@ -6997,6 +6997,13 @@ redux@^4.0.4, redux@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.0.tgz#46f10d6e29b6666df758780437651eeb2b969f13"
   integrity sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
+redux@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
+  integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
   dependencies:
     "@babel/runtime" "^7.9.2"
 

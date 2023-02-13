@@ -34,7 +34,7 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo/redux": "^4.0.10",
+    "@txo/redux": "^4.0.11",
     "redux-saga": "^1.2.2"
   },
   "peerDependencies": {
