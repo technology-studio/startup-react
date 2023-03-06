@@ -23,7 +23,7 @@ import { selectStartupComplete } from '../Redux/Model/StartupSelectors'
 // process STARTUP actions
 export function * startupActionSaga (_action: Action): SagaGenerator {
   const { startupSaga } = configManager.config
-  if (startupSaga) {
+  if (startupSaga != null) {
     yield call(startupSaga)
   }
 
@@ -33,7 +33,7 @@ export function * startupActionSaga (_action: Action): SagaGenerator {
 export function * waitForStartupComplete (effect: Effect): SagaGenerator {
   while (true) {
     const startupComplete: boolean | null = yield select(selectStartupComplete)
-    if (startupComplete) {
+    if (startupComplete ?? false) {
       yield effect
       break
     }
