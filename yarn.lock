@@ -1426,7 +1426,7 @@
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.1.tgz#fd96044751a9930cf5136a7248ad8989efce756c"
   integrity sha512-CC+ZkiTbytuNVqvusQFdp72i1G2MhA5ITohxEMEi0qGLGIzxtYT20vYkoFRC8XPbsZydbu9uVtpH5wA/X/g/eg==
 
-"@txo/redux@^4.0.10":
+"@txo/redux@^4.0.11":
   version "4.0.11"
   resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.11.tgz#c6169cc12eeb8b20db80c73b883b141b7c45bf78"
   integrity sha512-61xq66VW6EfEPVG+ySYi+2J2GiwbbICrrfc2uAJp0ZqqBcfsaS58B95iN/8TmzWjZBvUzijl6A2UO2CMm8nZpA==
