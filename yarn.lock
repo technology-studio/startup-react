@@ -1408,10 +1408,10 @@
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.1.0.tgz#9a38d0ba2b2355f973775bafe884cdbb7225dc0d"
   integrity sha512-rYSd5Mk4URK3hs7Y5nSXst4KOidmjJPeaNkh+D/L1ndVodvKwXO/rZV00VYXpW71/KSaG1Hj83At3r4WmboKvg==
 
-"@txo/functional@^4.5.2":
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.5.2.tgz#435d42eec74d00ea935d1197533c51528ac5b6f9"
-  integrity sha512-dpAfJ2CD1oz5PLykzto1uPSZKhjAwNMUAkF+MYsnpFDuTvWPSHk8BevREXnUVP+E3ZDnXM9yYslPWK4K+8j/7A==
+"@txo/functional@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.0.tgz#52e8263ac49dc2982d6384eb0583335c1c1e567f"
+  integrity sha512-RXTZBhGINB/4omav8ARje1r6f785d6rwd4V1q+yRFLrbxhKKAFhC6AF7AyVyFScJJB/rLaRppFbCXuC4I4Xl6w==
   dependencies:
     "@txo/log" "^2.0.1"
     utility-types "^3.10.0"
@@ -1426,12 +1426,12 @@
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.1.tgz#fd96044751a9930cf5136a7248ad8989efce756c"
   integrity sha512-CC+ZkiTbytuNVqvusQFdp72i1G2MhA5ITohxEMEi0qGLGIzxtYT20vYkoFRC8XPbsZydbu9uVtpH5wA/X/g/eg==
 
-"@txo/redux@^4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.11.tgz#c6169cc12eeb8b20db80c73b883b141b7c45bf78"
-  integrity sha512-61xq66VW6EfEPVG+ySYi+2J2GiwbbICrrfc2uAJp0ZqqBcfsaS58B95iN/8TmzWjZBvUzijl6A2UO2CMm8nZpA==
+"@txo/redux@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@txo/redux/-/redux-4.0.12.tgz#fb462b30ab135360de2232f1780a0f31574915c9"
+  integrity sha512-9AmhgN+qEitVmjuOhZExotkJwK/ZPvb7bX+6uik6La1gJB1zaRCAlKfk+5vfMf9EPBYXfTdtxnToeZMcR073kQ==
   dependencies:
-    "@txo/functional" "^4.5.2"
+    "@txo/functional" "^4.6.0"
     constant-case "^3.0.4"
     redux "^4.2.1"
 
