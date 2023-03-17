@@ -1,6 +1,6 @@
 {
   "name": "@txo/startup-react",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "Technology Studio - Startup react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
