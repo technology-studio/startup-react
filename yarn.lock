@@ -1542,10 +1542,10 @@
   dependencies:
     "@txo/config-manager" "^3.0.1"
 
-"@txo-peer-dep/redux@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/redux/-/redux-1.0.0.tgz#0ef9aab2000d5982788dfc2efcd604cc509acd3e"
-  integrity sha512-XXiuT+a7KFECl0MtXwPT9AiW38CgoIZIoeXfUIcv+r203tvWmcG0cTmcNbwrNB0R7GkiY9wAvFkrTIxi8Q+4QA==
+"@txo-peer-dep/redux@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/redux/-/redux-1.0.1.tgz#dfe2205cf74e6344ccc635ed330632b84ac3028b"
+  integrity sha512-6AzIqr8wmllD2aMnwwsbk0hqNG5ldkON5faEg1pHQk03G118G7NkAuE61pUveZNX9tFdtCGfI+t24OCeXKfx4Q==
 
 "@txo-peer-dep/startup-react@^1.0.2":
   version "1.0.2"
