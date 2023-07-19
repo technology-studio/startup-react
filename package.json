@@ -38,7 +38,7 @@
     "redux-saga": "^1.2.3"
   },
   "peerDependencies": {
-    "@txo-peer-dep/redux": "^1.0.0",
+    "@txo-peer-dep/redux": "^1.0.1",
     "@txo-peer-dep/startup-react": "^1.0.2",
     "immutability-helper": "^3.1.1"
   },
@@ -48,7 +48,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@txo-peer-dep/log": "^4.0.0",
-    "@txo-peer-dep/redux": "^1.0.0",
+    "@txo-peer-dep/redux": "^1.0.1",
     "@txo-peer-dep/startup-react": "^1.0.2",
     "@txo/log-console": "^3.0.0",
     "@types/jest": "^29.5.3",
