@@ -32,7 +32,7 @@ export function * startupActionSaga (_action: Action): SagaGenerator {
 
 export function * waitForStartupComplete (effect: Effect): SagaGenerator {
   while (true) {
-    const startupComplete: boolean | null = yield select(selectStartupComplete)
+    const startupComplete = (yield select(selectStartupComplete)) as ReturnType<typeof selectStartupComplete>
     if (startupComplete ?? false) {
       yield effect
       break
