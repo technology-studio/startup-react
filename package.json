@@ -37,7 +37,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@txo/redux": "^4.0.26",
+    "@txo/redux": "^4.0.27",
     "redux-saga": "^1.2.3"
   },
   "peerDependencies": {
