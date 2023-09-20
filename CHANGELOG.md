@@ -1,3 +1,10 @@
+## [3.0.14](https://github.com/technology-studio/startup-react/compare/v3.0.13...v3.0.14) (2023-09-20)
+
+
+### Bug fixes
+
+* recreate yarn.lock ([#439](https://github.com/technology-studio/startup-react/issues/439)) ([09b6fa3](https://github.com/technology-studio/startup-react/commit/09b6fa3dd45e4667b227b1269793b7ea17bbc545))
+
 ## [3.0.13](https://github.com/technology-studio/startup-react/compare/v3.0.12...v3.0.13) (2023-08-10)
 
 
