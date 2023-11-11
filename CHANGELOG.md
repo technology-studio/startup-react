@@ -1,3 +1,10 @@
+## [3.0.17](https://github.com/technology-studio/startup-react/compare/v3.0.16...v3.0.17) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo-peer-dep/startup-react to ^1.0.3 ([0f9d00e](https://github.com/technology-studio/startup-react/commit/0f9d00ed5cdded3774558e87f1af65fd6818b227))
+
 ## [3.0.16](https://github.com/technology-studio/startup-react/compare/v3.0.15...v3.0.16) (2023-09-20)
 
 
