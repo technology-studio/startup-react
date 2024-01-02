@@ -1,3 +1,10 @@
+## [3.0.19](https://github.com/technology-studio/startup-react/compare/v3.0.18...v3.0.19) (2024-01-02)
+
+
+### Bug fixes
+
+* **deps:** update dependency redux-saga to ^1.3.0 ([4d5e8ea](https://github.com/technology-studio/startup-react/commit/4d5e8ea8f88f3ddebf9af067ae8a642dd3e02e7f))
+
 ## [3.0.18](https://github.com/technology-studio/startup-react/compare/v3.0.17...v3.0.18) (2023-11-11)
 
 
