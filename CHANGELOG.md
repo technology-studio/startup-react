@@ -1,3 +1,10 @@
+## [3.0.20](https://github.com/technology-studio/startup-react/compare/v3.0.19...v3.0.20) (2024-01-03)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/redux to ^4.0.31 ([#547](https://github.com/technology-studio/startup-react/issues/547)) ([499b603](https://github.com/technology-studio/startup-react/commit/499b6037a278cc36b849b8ca899ef5cb4bc4c8cf))
+
 ## [3.0.19](https://github.com/technology-studio/startup-react/compare/v3.0.18...v3.0.19) (2024-01-02)
 
 
