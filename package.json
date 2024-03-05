@@ -54,8 +54,8 @@
     "@txo/semantic-release": "^1.0.8",
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
-    "@types/react": "^18.2.62",
-    "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.63",
+    "@types/react-dom": "^18.2.20",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.43",
     "husky": "^8.0.3",
@@ -71,6 +71,6 @@
     "typescript": "^5.3.3"
   },
   "resolutions": {
-    "@types/react": "^18.2.62"
+    "@types/react": "^18.2.63"
   }
 }
