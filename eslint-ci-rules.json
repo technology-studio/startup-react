@@ -1,0 +1,6 @@
+[
+  "@typescript-eslint/no-magic-numbers",
+  "@stylistic/space-before-function-paren",
+  "@typescript-eslint/prefer-destructuring",
+  "@typescript-eslint/no-unsafe-type-assertion"
+]
