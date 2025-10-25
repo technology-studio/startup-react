@@ -1,3 +1,20 @@
+## [3.0.22](https://github.com/technology-studio/startup-react/compare/v3.0.21...v3.0.22) (2025-10-25)
+
+
+### CI
+
+* add lint command for CI ([#714](https://github.com/technology-studio/startup-react/issues/714)) ([577fbba](https://github.com/technology-studio/startup-react/commit/577fbbaeb54e17c3db1930d072699100ebc54317))
+* add pr.yml permissions ([#928](https://github.com/technology-studio/startup-react/issues/928)) ([8714377](https://github.com/technology-studio/startup-react/commit/871437712f25195ce895139c1f9a110db95a46bc))
+* add synchronize to PR workflow ([#771](https://github.com/technology-studio/startup-react/issues/771)) ([816d702](https://github.com/technology-studio/startup-react/commit/816d702372dd9e857a16877f4c5c3b214c8c4e4d))
+* rename workflows ([#729](https://github.com/technology-studio/startup-react/issues/729)) ([9308f2c](https://github.com/technology-studio/startup-react/commit/9308f2c59a050bca0f94e4fd78792f84f931659e))
+* update pr and release workflows ([#769](https://github.com/technology-studio/startup-react/issues/769)) ([fcb9fe5](https://github.com/technology-studio/startup-react/commit/fcb9fe56d97800a6e2cedf397b2cddea2148f07a))
+* update URL for code-quality ([#721](https://github.com/technology-studio/startup-react/issues/721)) ([0b837ef](https://github.com/technology-studio/startup-react/commit/0b837ef75090ad5b2b634635da735c18a52d18b0))
+
+
+### Bug fixes
+
+* **deps:** update dependency redux-saga to ^1.4.2 ([#948](https://github.com/technology-studio/startup-react/issues/948)) ([2d34908](https://github.com/technology-studio/startup-react/commit/2d34908d1c5fbaaecfc7d68b04b272057523439b))
+
 ## [3.0.21](https://github.com/technology-studio/startup-react/compare/v3.0.20...v3.0.21) (2024-04-10)
 
 
